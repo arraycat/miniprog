@@ -9,9 +9,9 @@ Page({
     today:{},
     tomorrow:{},
     afterTomor:{},
-    todyIcon:'../../images/weather/999.png',
-    tomorrowIcon:'../../images/weather/999.png',
-    afterTomorIcon:'../../images/weather/999.png'
+    todyIcon:'../../image/weather/999.png',
+    tomorrowIcon:'../../image/weather/999.png',
+    afterTomorIcon:'../../image/weather/999.png'
   },
   onShow: function () {
     this.getLocation();
@@ -54,9 +54,9 @@ Page({
           today: daily_forecast_today,
           tomorrow:daily_forecast_tomorrow,
           afterTomor: daily_forecast_afterTomor,
-          todyIcon: '../../images/weather/' + daily_forecast_today.cond_code_d+'.png', //在和风天气中下载天气的icon图标，根据cond_code_d显示相应的图标
-          tomorrowIcon: '../../images/weather/' + daily_forecast_tomorrow.cond_code_d+'.png',
-          afterTomorIcon: '../../images/weather/' + daily_forecast_afterTomor.cond_code_d+'.png'
+          todyIcon: '../../image/weather/' + daily_forecast_today.cond_code_d+'.png', //在和风天气中下载天气的icon图标，根据cond_code_d显示相应的图标
+          tomorrowIcon: '../../image/weather/' + daily_forecast_tomorrow.cond_code_d+'.png',
+          afterTomorIcon: '../../image/weather/' + daily_forecast_afterTomor.cond_code_d+'.png'
         });
       }
     })

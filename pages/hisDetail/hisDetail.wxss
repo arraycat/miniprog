@@ -1,0 +1,41 @@
+.firstImg{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 10%;
+}
+.imgBox{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.weui-article__h2{
+  text-align: center;
+  font-size: 40px;
+}
+.imgBox2{
+  display: flex;
+  float: left;
+  width: 25%;
+  margin: 5px;
+  padding: 0;
+}
+.firstImg2{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-radius: 30%;
+}
+.author{
+  float: right;
+  font-size: 18px;
+  color: blue;
+}
+.content{
+  background-image: url("https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/artBac2.jpg");
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  text-indent: 2em;
+  border-radius: 10%;
+}

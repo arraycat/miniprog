@@ -7,21 +7,20 @@
     </block>
   </view>
 </view>
-
 <view class="weui-cells weui-cells_after-title">
-  <navigator url="../file/file" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
     <view class="weui-cell__hd">
       <image src="{{icon1}}" style="margin-right: 20px;vertical-align: middle;width:30px; height: 30px;"></image>
     </view>
-    <view class="weui-cell__bd">待更改</view>
+    <view class="weui-cell__bd">收藏</view>
     <view class="weui-cell__ft weui-cell__ft_in-access"></view>
   </navigator>
 
-  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+  <navigator url="../col/col" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
     <view class="weui-cell__hd">
       <image src="{{icon2}}" style="margin-right: 20px;vertical-align: middle;width:30px; height: 30px;"></image>
     </view>
-    <view class="weui-cell__bd">订单</view>
+    <view class="weui-cell__bd">报考院校</view>
     <view class="weui-cell__ft weui-cell__ft_in-access"></view>
   </navigator>
 
@@ -29,31 +28,16 @@
     <view class="weui-cell__hd">
       <image src="{{icon3}}" style="margin-right: 20px;vertical-align: middle;width:30px; height: 30px;"></image>
     </view>
-    <view class="weui-cell__bd">收藏</view>
+    <view class="weui-cell__bd">设置</view>
     <view class="weui-cell__ft weui-cell__ft_in-access"></view>
   </navigator>
 
-  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+  <navigator url="./about/about" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
     <view class="weui-cell__hd">
       <image src="{{icon4}}" style="margin-right: 20px;vertical-align: middle;width:30px; height: 30px;"></image>
     </view>
-    <view class="weui-cell__bd">会员中心</view>
+    <view class="weui-cell__bd">关于我们</view>
     <view class="weui-cell__ft weui-cell__ft_in-access"></view>
   </navigator>
 
-  <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-    <view class="weui-cell__hd">
-      <image src="{{icon5}}" style="margin-right: 20px;vertical-align: middle;width:30px; height: 30px;"></image>
-    </view>
-    <view class="weui-cell__bd">收货地址</view>
-    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-  </navigator>
-
-    <navigator url="../productManager/productManager" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-    <view class="weui-cell__hd">
-      <image src="{{icon6}}" style="margin-right: 20px;vertical-align: middle;width:30px; height: 30px;"></image>
-    </view>
-    <view class="weui-cell__bd">产品管理</view>
-    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-  </navigator>
 </view>

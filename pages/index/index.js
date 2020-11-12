@@ -2,7 +2,14 @@
 
 Page({
   data: {
-
+    update: '',
+    basic:{},
+    today:{},
+    tomorrow:{},
+    afterTomor:{},
+    todyIcon:'../../image/weather/999.png',
+    tomorrowIcon:'../../image/weather/999.png',
+    afterTomorIcon:'../../image/weather/999.png'
   },
   //事件处理函数
   bindViewTap: function() {
@@ -12,6 +19,9 @@ Page({
   },
   onLoad: function () {
 
+  },
+  onShow: function () {
+    
   },
   myClick:function(){
     wx.switchTab({
@@ -46,8 +56,14 @@ Page({
     })
   },
   to5:function(){
-    wx.switchTab({
-      url: '../page2/page2',
+    wx.navigateTo({
+      url: '../history/history',
     })
   },
+  toWeather:function(){
+    wx.navigateTo({
+      url: '../weather/weather',
+    })
+  },
+
 })

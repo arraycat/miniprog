@@ -8,7 +8,7 @@
         <view class="weui-article__h2 title">{{item["景点名"]}}</view>
       </view>
       <view>
-        <view class="weui-article__p">{{item["景点简介"]}}</view>
+        <view class="weui-article__p intro">{{item["景点简介"]}}</view>
       </view>
       <view class="imgBox"><image class="firstImg" src="{{item.image1}}"></image></view>
     </view>

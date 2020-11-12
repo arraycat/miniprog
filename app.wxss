@@ -1,5 +1,7 @@
 /**app.wxss**/
 @import 'weui.wxss';
+@import "main.wxss";
+@import "icon.wxss";
 
 .container {
   height: 100%;

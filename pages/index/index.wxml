@@ -2,7 +2,10 @@
 
   <view>
     <view>
-      <image src="https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/mygif.gif" bindtap="to2" class="flags"></image>
+      <image src="https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/mygif.gif" bindtap="toWeather" class="flags"></image>
+     <image src="{{todyIcon}}" bindtap="toWeather" class="flag2"></image> 
+      <!-- <image src="{{tomorrowIcon}}" bindtap="toWeather" class="flag2"></image>
+      <!-- <image src="{{afterTomorIcon}}" bindtap="toWeather" class="flag2"></image> -->
       <image src="../../image/wanghong.png" bindtap="toPage2" id="celebrity"></image>
       <image src="../../image/plants.png" bindtap="to2" id="plant"></image>
       <image src="../../image/hotImg.png" bindtap="toPage4" id="img"></image>
@@ -10,10 +13,10 @@
       <image src="../../image/history.png"  bindtap="to5" id="history"></image>
       <view>
         <swiper indicator-dots="true" autoplay="auto" interval="4000" class="my_swiper">
-          <swiper-item><image class="siper_item" src="https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/sp_baiHua.png"></image></swiper-item>
+          <swiper-item><image class="siper_item" src="https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/sp_yinXingHuang.png"></image></swiper-item>
           <swiper-item><image class="siper_item" src="https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/sp_mao.png"></image></swiper-item>
           <swiper-item><image class="siper_item" src="https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/sp_yinXing.png"></image></swiper-item>
-          <swiper-item><image class="siper_item" src="https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/sp_yinXingHuang.png"></image></swiper-item>
+          <swiper-item><image class="siper_item" src="https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/sp_baiHua.png"></image></swiper-item>
     </swiper>
       </view>
       

@@ -3,7 +3,7 @@
 <view class="imgView">
   <view><image class="img" style=" position:absolute;left:50px" src="../../image/univer.png"></image>
   </view>
-  <view><image  class="img" style="position:absolute;right:50px" src="../../image/xueyuan.png" bindtap="toCol"></image>
+  <view><image  class="img" style="position:absolute;right:35px" src="../../image/xueyuan.png" bindtap="toCol"></image>
   </view>
   <view><image  class="img" style="position:absolute;left:180px" src="../../image/baokao2.png"></image>
     <view class="selected"><text style="position:absolute;top:300px;left:50px" >大学</text></view>

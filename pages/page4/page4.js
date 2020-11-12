@@ -50,7 +50,7 @@ Page({
     // 获取相册列表
     async getAlbums(albumsParam) {
         const albums = albumsParam || app.globalData.allData.albums
-
+        
         for (const album of albums) {
             if (!album) {
                 continue

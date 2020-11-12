@@ -1,43 +1,56 @@
 
 .flags{
-  height: 100px;
+  height: 200px;
   width: 100%;
   margin-bottom: 1%;
 }
 #celebrity{
   float: left;
   position: relative;
-  left: 10px;
-  width: 55%;
-  height: 160px;
+  left: 15px;
+  width: 60%;
+  height: 170px;
 }
 #plant{
   float: right;
-  width: 38%;
-  height:100px;
+  width: 30%;
+  height:90px;
+  left: -15px;
 }
 #img{
   float: right;
-  width:38%;
-  height: 215px;
+  width: 30%;
+  height:175px;
+  bottom:-5px;
+  left: -15px;
 }
 #exam{
   float: left;
-  margin-left: 10px;
+  margin-left: 15px;
   width: 30%;
-  height: 150px;
+  height:95px;
+  bottom:-5px;
 }
 #history{
   float: left;
-  width: 28%;
-  height: 150px;
+  width: 30%;
+  height:95px;
+  bottom:-5px;
 }
 
 .siper_item{
-  height: 50%;
+  height: 80%;
   margin-bottom: 0px;
   padding: 0px;
   position: relative;
-  bottom: -30px;
-  left: 20px;
+  bottom: -25px;
+  left: 18px;
+}
+.flag2{
+  position: absolute;
+  left: -100px;
+  width: 20%;
+  height: 30px;
+  font-size:0px;
+
 }

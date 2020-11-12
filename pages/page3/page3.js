@@ -158,8 +158,8 @@ Page({
         if(res.tapIndex === 1){
           var filePath;
           filePath=imglist;
-          wx.navigateTo({
-            url: '../page4/page4'
+          wx.switchTab({
+            url: '../page4/page4',
           })
         };
         //删除临时文件

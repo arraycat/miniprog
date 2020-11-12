@@ -1,0 +1,16 @@
+<view class="page__bd">
+    <view class="item" wx:for="{{items}}" bindtap="onClick" wx:key="index">
+      <view class="imgBox"><image class="firstImg" src="{{item.image1}}"></image></view>
+      
+      <view>
+        <view class="weui-article__h2">{{item["文章名称"]}}</view>
+      </view>
+      <view>
+        <view class="weui-article__p content">{{item["文章内容"]}}</view>
+      </view>
+      <view>
+        <view class="author">文：{{item["作者名称"]}}</view>
+      </view>
+    </view>
+
+  </view>

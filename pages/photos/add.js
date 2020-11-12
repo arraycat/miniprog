@@ -20,11 +20,10 @@ Page({
     // 获取原相册的的内容
     onLoad(options) {
         this.setData({
-            photosNew: options.filePath,
             albumIndex: options.id,
             photosOrigin: app.globalData.allData.albums[options.id].photos
         });
-        console.log(filePath);
+        // console.log(filePath);
     },
 
     // 提交表单
@@ -105,7 +104,31 @@ Page({
     // 添加图片信息到数据库
     addPhotos(photos, comment) {
         const db = wx.cloud.database()
+        //调用云函数进行校验
+        if (comment != "") {
+            wx.cloud.callFunction({
+                name: 'textsec',
+                data: {
+                    text: comment
+                },
+                success() {
+                    comment = comment;
+                    console.log("校验成功");
+                },
+                fail(e) {
+                    console.log("add.js：cloud", e);
+                    comment = '********'
+                    wx.hideLoading();
+                    wx.showModal({
+                        title: "文字违规",
+                        content: "已经处理文字",
+                        showCancel: false
+                    })
+                }
+            })
+        }
         // 从全局数据中读出用户信息里的照片列表
+
         const oldPhotos = app.globalData.allData.albums[this.data.albumIndex].photos
         const albumPhotos = photos.map(photo => ({
             fileID: photo.fileID,

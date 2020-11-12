@@ -30,3 +30,15 @@
 .imgWrap{
   display: flex;
 }
+.article{
+  text-indent: 2em;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  background-image: url("https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/artBac.jpg");
+}
+.tower-swiper .tower-item {
+  transform: scale(calc(0.5 + var(--index) / 10));
+  margin-left: calc(var(--left) * 100rpx - 150rpx);
+  z-index: var(--index);
+}

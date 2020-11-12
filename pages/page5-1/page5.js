@@ -6,16 +6,11 @@ Page({
    * 页面的初始数据
    */
   data: {
-    // icon1: '../../images/wallet.png',
-    // icon2: '../../images/order.png',
-    // icon3: '../../images/like.png',
-    // icon4: '../../images/vip.png',
-    // icon5: '../../images/position.png',
-    // icon6: '../../images/setting.png',
-    // avatarUrl: './user-unlogin.png',
-    // preLoadUrl: 'pages/productManagement/productManagement?num=1',
-    // userInfo: {},
-    // hasUserInfo: false
+    icon1: '../../image/favo.png',
+    icon2: '../../image/baokao3.png',
+    icon3: '../../image/setting.png',
+    icon4: '../../image/contract.png',
+    hasUserInfo: false
   },
   
 
@@ -46,7 +41,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    this.$preload(this.data.preLoadUrl);
+
   },
 
   /**

@@ -1,0 +1,19 @@
+<!--pages/page2/page2.wxml-->
+<view id="head">风雨云大</view>
+<view class="page" style="position:relative;top:5px;" data-weui-theme="{{theme}}">
+  <view class="page__bd">
+    <view class="item" wx:for="{{items}}"  bindtap="onClick" wx:key="index">
+      <view>
+        <view class="weui-article__h2 title" >{{item["文章名称"]}}</view>
+      </view>
+      <view>
+        <view class="weui-article__p intro">{{item["文章内容"]}}</view>
+      </view>
+      <view class="imgBox"><image class="firstImg" src="{{item.image1}}"></image></view>
+      <view>
+        <view class="weui-article__p intro" style="float:right;position:relative;top:-30px">文：{{item["作者名称"]}}</view>
+      </view>
+    </view>
+
+  </view>
+</view>

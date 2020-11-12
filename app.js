@@ -1,4 +1,5 @@
 //app.js
+//11223344
 App({
   onLaunch: function () {
     // 初始化云函数
