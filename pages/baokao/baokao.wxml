@@ -1,0 +1,40 @@
+<view class="title">请输入你的省份</view>
+<view class='page_row' bindtap="suo">
+  <view class="search">
+    <view class="df search_arr">
+      <icon class="searchcion" size='20' type='search'></icon>
+      <input class="" placeholder="请输入关键字" bindinput="input" />
+    </view>
+  </view>
+  <view class='sousuo' bindtap="search">搜索</view>
+</view>
+<view class='select_box'>
+    <view class='select' catchtap='selectTap'>
+        <text class='select_text'>{{selectData[index]}}</text>
+        <image class='select_img {{selectShow&&"select_img_rotate"}}' src='../../image/下拉.png'  background-size="contain"></image> 
+    </view>
+    <view class='option_box' style='height:{{selectShow?(selectData.length>5?325:selectData.length*50):0}}rpx;'>
+        <text class='option' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}</text>
+    </view>
+</view>
+<view class="item" wx:for="{{items}}" bindtap="onClick" wx:key="index">
+  <view>
+    <view class="schoolName">招收学院信息学院（School of Information）：</view>
+    <view class="content">招收专业：智能科学与技术</view>
+    <view class="weui-article__p content">平均分：{{item["智能科学与技术理工"]["平均分"]}}</view>
+    <view class="weui-article__p content">最高分：{{item["智能科学与技术理工"]["最高分"]}}</view>
+    <view class="weui-article__p content">最低分：{{item["智能科学与技术理工"]["最低分"]}}</view>
+    <view class="content">招收专业：通信工程</view>
+    <view class="weui-article__p content">平均分：{{item["通信工程理工"]["平均分"]}}</view>
+    <view class="weui-article__p content">最高分：{{item["通信工程理工"]["最高分"]}}</view>
+    <view class="weui-article__p content">最低分：{{item["通信工程理工"]["最低分"]}}</view>
+    <view class="content">招收专业：电子信息工程</view>
+    <view class="weui-article__p content">平均分：{{item["电子信息工程理工"]["平均分"]}}</view>
+    <view class="weui-article__p content">最高分：{{item["电子信息工程理工"]["最高分"]}}</view>
+    <view class="weui-article__p content">最低分：{{item["电子信息工程理工"]["最低分"]}}</view>
+    、<view class="content">招收专业：计算机科学与技术</view>
+    <view class="weui-article__p content">平均分：{{item["计算机科学与技术理工"]["平均分"]}}</view>
+    <view class="weui-article__p content">最高分：{{item["计算机科学与技术理工"]["最高分"]}}</view>
+    <view class="weui-article__p content">最低分：{{item["计算机科学与技术理工"]["最低分"]}}</view>
+  </view>
+</view>

@@ -1,4 +1,5 @@
 // pages/page2/page2.js
+//对应东陆校区
 const app = getApp();
 wx. cloud. init()
 const db = wx.cloud.database()
@@ -103,7 +104,7 @@ Page({
     var content = e.currentTarget
     console.log(content.offsetTop)
     var a = content.offsetTop
-    var index = Math.floor((a-24)/423)
+    var index = Math.round(a/388)
     console.log(index)
     app.globalData.page2Info = myItem[index]["景点名"]
     app.globalData.area = "chenggong"

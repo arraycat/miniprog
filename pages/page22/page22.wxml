@@ -1,5 +1,5 @@
 <!--pages/page2/page2.wxml-->
-<view><button class="myButton" style="float:left;width:50%" bindtap="toDL" >东陆</button> <button class="myButton" bindtap="toCG" style="float:right;width:50%">呈贡</button></view>
+<view><button class="myButton" style="float:left;width:50%" bindtap="toDL" >东陆</button> <button class="myButton button1" bindtap="toCG" style="float:right;width:50%">呈贡</button></view>
 <view class="page" style="position:relative;top:50px" data-weui-theme="{{theme}}">
   <view class="page__bd">
     <view class="item" wx:for="{{items}}" bindtap="onClick" wx:key="index">

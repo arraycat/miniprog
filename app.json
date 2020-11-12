@@ -4,7 +4,7 @@
     "pages/page2/page2",
     "pages/page3/page3",
     "pages/page4/page4",
-   
+
     "pages/logs/logs",
     "pages/splash/splash",
     "pages/page22/page22",
@@ -17,10 +17,9 @@
     "pages/user/user",
     "pages/history/history",
     "pages/hisDetail/hisDetail",
-  
     "pages/page5/about/about",
-  
-    "pages/page5/home/home"
+    "pages/page5/home/home",
+    "pages/baokao/baokao"
   ],
   "requiredBackgroundModes": [
     "audio",
@@ -37,8 +36,7 @@
     "borderStyle": "black",
     "backgroundColor": "#433d3d",
     "color": "#fff",
-    "list": [
-      {
+    "list": [{
         "pagePath": "pages/index/index",
         "iconPath": "image/菜单.png",
         "selectedIconPath": "image/菜单被点.png",
@@ -53,14 +51,14 @@
       {
         "pagePath": "pages/page3/page3",
         "iconPath": "image/相机.png",
-        "selectedIconPath": "image/相机.png",
+        "selectedIconPath": "image/相机被点.png",
         "text": "拍照"
       },
       {
         "pagePath": "pages/page4/page4",
         "iconPath": "image/图片.png",
         "selectedIconPath": "image/图片被点.png",
-        "text": "美图"
+        "text": "相册"
       },
       {
         "pagePath": "pages/page5/home/home",

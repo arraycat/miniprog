@@ -24,3 +24,9 @@
   text-indent: 2em;
   font-family: 'Courier New', Courier, monospace;
 }
+.button1{
+  color: rgb(85, 226, 72);
+  background-color: rgb(240, 240, 240);
+  padding: 0;
+  margin: 0;
+}

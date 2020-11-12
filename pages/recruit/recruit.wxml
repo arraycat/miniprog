@@ -1,15 +1,12 @@
 <!--pages/recruit/recruit.wxml-->
-<video src="https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/%E5%BB%BA%E7%AD%91%E5%A4%A7%E8%A7%82.mp4" autoplay="ture"></video>
+<view id="videoBox"><video src="https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/%E5%BB%BA%E7%AD%91%E5%A4%A7%E8%A7%82.mp4" autoplay="ture"></video></view>
+
 <view class="imgView">
-  <view><image class="img" style=" position:absolute;left:50px" src="../../image/univer.png"></image>
+  <view><image class="img" style=" position:absolute;left:25px" src="https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/xuexiao.png"></image>
   </view>
-  <view><image  class="img" style="position:absolute;right:35px" src="../../image/xueyuan.png" bindtap="toCol"></image>
+  <view><image  class="img" style="position:absolute;right:25px" src="https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/xueyuan.png" bindtap="toCol"></image>
   </view>
-  <view><image  class="img" style="position:absolute;left:180px" src="../../image/baokao2.png"></image>
-    <view class="selected"><text style="position:absolute;top:300px;left:50px" >大学</text></view>
-    
-    <text style="position:absolute;top:300px;left:185px">报考</text>
-    <text style="position:absolute;top:300px;right:50px">学院</text>
+  <view><image  class="img" style="position:absolute;left:143px" src="https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/baokao.jpg" bindtap="toBaokao"></image>
   </view>
 </view>
 <view class="title" style="position:relative;top:100px">

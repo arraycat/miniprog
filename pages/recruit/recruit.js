@@ -67,6 +67,10 @@ Page({
     wx.navigateTo({
     url: '../col/col'
   })
+  },
+  toBaokao:function(){
+    wx.navigateTo({
+      url: '../baokao/baokao',
+    })
   }
-  
 })

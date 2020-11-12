@@ -1,8 +1,12 @@
 /* pages/recruit/recruit.wxss */
 video{
   border: solid lightpink 1px;
-  width: 100%;
+  width: 85%;
+  height: 160px;
   border-radius: 10%;
+}
+#videoBox{
+  text-align: center;
 }
 .title{
   font-size: 25px;
@@ -18,8 +22,9 @@ video{
 }
 .img{
   float: left;
-  width: 15%;
-  height: 50px;
+  width: 25%;
+  height: 75px;
+  border-radius: 10%;
 }
 .selected{
   border-bottom: solid lightblue;

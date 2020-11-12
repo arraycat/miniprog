@@ -21,6 +21,12 @@
   border-radius: 10%;
   box-shadow: salmon 5px 5px 10px;
 }
+.button1{
+  color: rgb(85, 226, 72);
+  background-color: rgb(240, 240, 240);
+  padding: 0;
+  margin: 0;
+}
 /* 天气 */
 /* miniprogram/pages/weather/weather.wxss */
 /**index.wxss**/
