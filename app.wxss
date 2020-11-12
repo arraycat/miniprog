@@ -1,0 +1,37 @@
+/**app.wxss**/
+@import 'weui.wxss';
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  box-sizing: border-box;
+  background-image: none;
+}
+
+.page {
+  background-image: none;
+}
+
+.background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  /*text-align: center;*/
+  /*background: #f5f5f5;*/
+  background-image: none;
+}
+.item{
+  border-bottom: dotted gray;
+}
+.myButton{
+  color: greenyellow;
+  background-color: lightblue;
+  padding: 0;
+  margin: 0;
+}

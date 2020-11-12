@@ -1,0 +1,16 @@
+<!--pages/page2/page2.wxml-->
+<view><button class="myButton" style="float:left;width:50%" >东陆</button> <button class="myButton" bindtap="toCG" style="float:right;width:50%">呈贡</button></view>
+<view class="page" style="position:relative;top:50px" data-weui-theme="{{theme}}">
+  <view class="page__bd">
+    <view class="item" wx:for="{{items}}"  bindtap="onClick" wx:key="index">
+      <view>
+        <view class="weui-article__h2 title" >{{item["景点名"]}}</view>
+      </view>
+      <view>
+        <view class="weui-article__p intro">{{item["景点简介"]}}</view>
+      </view>
+      <view class="imgBox"><image class="firstImg" src="{{item.image1}}"></image></view>
+    </view>
+
+  </view>
+</view>

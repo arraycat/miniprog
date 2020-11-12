@@ -1,0 +1,71 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/page2/page2",
+    "pages/page3/page3",
+    "pages/page4/page4",
+    "pages/page5/page5",
+    "pages/logs/logs",
+    "pages/splash/splash",
+    "pages/page22/page22",
+    "pages/detail/detail",
+    "pages/recruit/recruit",
+    "pages/col/col",
+    "pages/album/album",
+    "pages/common/common",
+    "pages/photos/photos",
+    "pages/user/user"
+  ],
+  "requiredBackgroundModes": ["audio", "location"],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#433d3d",
+    "navigationBarTitleText": "云游校园",
+    "navigationBarTextStyle": "white"
+  },  
+  "tabBar": {
+    "selectedColor": "#07C160",
+    "borderStyle": "black",
+    "backgroundColor": "#433d3d",
+    "color": "#fff",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "image/菜单.png",
+        "selectedIconPath": "image/菜单被点.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/page2/page2",
+        "iconPath": "image/景点.png",
+        "selectedIconPath": "image/景点被点.png",
+        "text": "景点"
+      },
+      {
+        "pagePath": "pages/page3/page3",
+        "iconPath": "image/相机.png",
+        "selectedIconPath": "image/相机.png",
+        "text": "拍照"
+      },
+      {
+        "pagePath": "pages/page4/page4",
+        "iconPath": "image/图片.png",
+        "selectedIconPath": "image/图片被点.png",
+        "text": "美图"
+      },
+      {
+        "pagePath": "pages/page5/page5",
+        "iconPath": "image/我的.png",
+        "selectedIconPath": "image/我的被点.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "useExtendedLib": {
+    "weui": true
+  },
+  "usingComponents": {
+    "mp-icon": "/components/icon/icon"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

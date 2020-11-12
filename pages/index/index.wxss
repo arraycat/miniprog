@@ -1,0 +1,43 @@
+
+.flags{
+  height: 100px;
+  width: 100%;
+  margin-bottom: 1%;
+}
+#celebrity{
+  float: left;
+  position: relative;
+  left: 10px;
+  width: 55%;
+  height: 160px;
+}
+#plant{
+  float: right;
+  width: 38%;
+  height:100px;
+}
+#img{
+  float: right;
+  width:38%;
+  height: 215px;
+}
+#exam{
+  float: left;
+  margin-left: 10px;
+  width: 30%;
+  height: 150px;
+}
+#history{
+  float: left;
+  width: 28%;
+  height: 150px;
+}
+
+.siper_item{
+  height: 50%;
+  margin-bottom: 0px;
+  padding: 0px;
+  position: relative;
+  bottom: -30px;
+  left: 20px;
+}

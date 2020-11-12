@@ -1,0 +1,32 @@
+<!--pages/detail/detail.wxml-->
+  <view class="page__bd">
+    <view class="item" wx:for="{{items}}" bindtap="onClick" wx:key="index">
+      <view class="imgBox"><image class="firstImg" src="{{item.image1}}"></image></view>
+      
+      <view>
+        <view class="weui-article__h2">{{item["景点名"]}}</view>
+      </view>
+      <view class="imgWrap">
+        <view class="imgBox2"><image class="firstImg2" src="{{item.image2}}"></image></view>
+
+      <view class="imgBox2"><image class="firstImg2" src="{{item.image3}}"></image></view>
+
+      <view class="imgBox2"><image class="firstImg2" src="{{item.image4}}"></image></view>
+
+      <view class="imgBox2"><image class="firstImg2" src="{{item.image5}}"></image></view>
+      </view>
+      <view><button class="myButton" bindtap="nav" style="float:left;width:50%">到这去</button><button class="myButton" style="right:left;width:50%" bindtap="toCG">收藏</button></view>
+      <view>
+        <view class="weui-article__p">{{item["景点简介"]}}</view>
+      </view>
+      <view style="text-align:center;font-size:25px; color:red">欣赏美图</view>
+      <view class="imgBox"><image class="firstImg" src="{{item.image2}}"></image></view>
+
+      <view class="imgBox"><image class="firstImg" src="{{item.image3}}"></image></view>
+
+      <view class="imgBox"><image class="firstImg" src="{{item.image4}}"></image></view>
+
+      <view class="imgBox"><image class="firstImg" src="{{item.image5}}"></image></view>
+    </view>
+
+  </view>

@@ -1,0 +1,34 @@
+/* miniprogram/pages/aboutme/aboutme.wxss */
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.userinfo {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 170rpx;
+  height: 170rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: rgb(17, 17, 17);
+  font-size: 20px;
+}
+
+.weui-cell:before {
+  left: 60px;
+}
+
+.weui-cell {
+  padding: 12px 15px;
+}

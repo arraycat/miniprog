@@ -1,0 +1,27 @@
+<view class="title">请输入你心仪的学院吧！❤❤❤</view>
+<view class='page_row' bindtap="suo">
+  <view class="search">
+    <view class="df search_arr">
+      <icon class="searchcion" size='20' type='search'></icon>
+      <input class="" placeholder="请输入关键字" bindinput="input" />
+    </view>
+  </view>
+  <view class='sousuo' bindtap="search">搜索</view>
+</view>
+<view class='select_box'>
+    <view class='select' catchtap='selectTap'>
+        <text class='select_text'>{{selectData[index]}}</text>
+        <image class='select_img {{selectShow&&"select_img_rotate"}}' src='../../image/下拉.png'  background-size="contain"></image> 
+    </view>
+    <view class='option_box' style='height:{{selectShow?(selectData.length>5?325:selectData.length*50):0}}rpx;'>
+        <text class='option' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}</text>
+    </view>
+</view>
+<view class="item" wx:for="{{items}}" bindtap="onClick" wx:key="index">
+  <view>
+    <view class="weui-article__h2 title">{{item["学院名"]}}</view>
+  </view>
+  <view>
+    <view class="weui-article__p content">{{item["学院简介"]}}</view>
+  </view>
+</view>

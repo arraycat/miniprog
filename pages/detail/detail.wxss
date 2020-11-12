@@ -1,0 +1,32 @@
+/* pages/detail/detail.wxss */
+.firstImg{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 10%;
+}
+.imgBox{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.weui-article__h2{
+  text-align: center;
+  font-size: 40px;
+}
+.imgBox2{
+  display: flex;
+  float: left;
+  width: 25%;
+  margin: 5px;
+  padding: 0;
+}
+.firstImg2{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-radius: 30%;
+}
+.imgWrap{
+  display: flex;
+}

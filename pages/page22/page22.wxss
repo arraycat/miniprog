@@ -1,0 +1,22 @@
+/* pages/page22/page22.wxss */
+.firstImg{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  border-radius: 10%;
+}
+.imgBox{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.title{
+  text-align: center;
+  font-size: 22px;
+}
+.item{
+  margin: 10px;
+  border: solid red 2px;
+  border-radius: 10%;
+  box-shadow: salmon 5px 5px 10px;
+}
