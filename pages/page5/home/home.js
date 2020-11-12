@@ -69,9 +69,11 @@ Component({
       })
     },
     showQrcode() {
+      var randNum = Math.floor(Math.random()*3);
+      var arr = ["https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/zhumingyu.jpg","https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/liuwenjing.png","https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/zhangguanping.jpg"]
       wx.previewImage({
-        urls: ['https://image.weilanwl.com/color2.0/zanCode.jpg'],
-        current: 'https://image.weilanwl.com/color2.0/zanCode.jpg' // 当前显示图片的http链接      
+        urls: [arr[randNum]],
+        current: arr[randNum] // 当前显示图片的http链接      
       })
     },
   }
