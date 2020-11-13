@@ -2,7 +2,7 @@
 
 项目名称：云游校园微信小程序  
 
-项目成员：刘雯静[@liuwj233hhh](https://github.com/liuwj233hhh)、朱明宇、张关平  
+项目成员：刘雯静[@liuwj233hhh](https://github.com/liuwj233hhh)、朱明宇[@Youjustdoit](https://github.com/Youjustdoit)、张关平[@arraycat](https://github.com/arraycat)  
 
 项目介绍：云游校园是一款以高校为背景、集景点信息-地图导航于一体的小程序，本项目致力于推广与宣传云南大学的校园风景与文化传承，塑造高校特色品牌效应，提高学校知名度与影响力，可供外地游客、在校生、中小学生以及云大校友使用。  
 
@@ -20,4 +20,3 @@
 项目截图：
 ![image](https://zhangguanping.cn/images/pic02.jpg)
 
-this is test
