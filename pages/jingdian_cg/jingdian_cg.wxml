@@ -1,5 +1,25 @@
 <!--pages/page2/page2.wxml-->
 <!-- 对应景点页面-呈贡 -->
+<view class="container" bindtap="toWeather">
+  <view class="weather yesterday">
+    <!-- 此处使用tomorrow样式 -->
+    <view>
+      <view class='date'>今天</view>
+      <view class='location'>{{basic.location}}/{{basic.parent_city}}</view>
+      <view class='tmp'>{{today.tmp_min}}℃~{{today.tmp_max}}℃</view>
+      <view class='cond_txt'>{{today.cond_txt_d}}</view>
+    </view>
+    <view>
+      <view class='weather_icon'>
+        <image src='{{todyIcon}}'></image>
+      </view>
+      <view class='lastUpdateDate'>最后更新：{{update}}</view>
+    </view>
+  </view>
+</view>
+
+
+
 <view><button class="myButton" style="float:left;width:50%" bindtap="toDL">东陆</button> <button class="myButton button1"
     bindtap="toCG" style="float:right;width:50%">呈贡</button></view>
 <view class="page" style="position:relative;top:50px" data-weui-theme="{{theme}}">
