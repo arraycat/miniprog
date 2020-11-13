@@ -18,5 +18,10 @@
 3.毕业生和校友，心系学校，直观感受学校变化。  
 4.社会人士，游览校园，体验高校自然和人文美景。  
 项目截图：
-![image](https://zhangguanping.cn/images/pic02.jpg)
+![image](https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/ph1.jpg)  
+![image](https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/ph2.jpg)  
+![image](https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/ph3.jpg)  
+![image](https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/ph4.jpg)  
+![image](https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/ph5.jpg)  
+![image](https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/ph6.jpg)  
 
