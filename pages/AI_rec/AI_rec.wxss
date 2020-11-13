@@ -1,0 +1,6 @@
+/* pages/AI_rec/AI_rec.wxss */
+.head{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}

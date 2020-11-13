@@ -104,7 +104,7 @@ Page({
     var content = e.currentTarget
     console.log(content.offsetTop)
     var a = content.offsetTop
-    var index = Math.round(a / 388)
+    var index = Math.round((a-14) / 116)
     console.log(index)
     app.globalData.page2Info = myItem[index]["景点名"]
     app.globalData.area = "chenggong"

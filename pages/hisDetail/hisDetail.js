@@ -86,7 +86,7 @@ Page({
         that.setData({
           items: items
         })
-        wx.hideLoading();
+        // wx.hideLoading();
         wx.hideNavigationBarLoading()
       })
   },

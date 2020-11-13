@@ -109,7 +109,7 @@ Page({
     that.setData({
       items:items
     })
-    wx.hideLoading();
+    // wx.hideLoading();
     wx.hideNavigationBarLoading()
   })
   },
@@ -134,7 +134,7 @@ db.collection('college').where({
   that.setData({
     items:items
   })
-  wx.hideLoading();
+  // wx.hideLoading();
   wx.hideNavigationBarLoading()
 })
 }

@@ -1,5 +1,4 @@
 <!--index.wxml-->
-<!-- 对应云相册的个人信息 -->
 <view class="container">
     <view class="userinfo">
         <block wx:if="{{!hasUserInfo && canIUse}}">

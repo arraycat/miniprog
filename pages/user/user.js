@@ -46,7 +46,7 @@ Page({
         }
     },
 
-    getUserInfo(e) {
+    getUserInfo (e) {
         if (e.detail.userInfo) {
             app.globalData.userInfo = e.detail.userInfo
 
@@ -62,7 +62,7 @@ Page({
     },
 
     // 如果数据库没有此用户，则添加
-    async addUser(user) {
+    async addUser (user) {
         if (app.globalData.hasUser) {
             return
         }
@@ -72,7 +72,7 @@ Page({
         let result = await db.collection('user').add({
             data: {
                 nickName: user.nickName,
-                albums: []
+                albums:[]
             }
         })
 

@@ -136,10 +136,11 @@ Page({
         that.setData({
           items: items
         })
-        wx.hideLoading();
+        // wx.hideLoading();
         wx.hideNavigationBarLoading()
       })
   },
+  //导航功能跳转
   nav: function () {
     console.log(myItem[0])
     var mydata = myItem[0]
