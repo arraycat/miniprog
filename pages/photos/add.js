@@ -7,7 +7,6 @@ Page({
      * 页面的初始数据
      */
     data: {
-
         currentPhoto: false,
         albumIndex: -1,
         albums: [],
@@ -22,8 +21,7 @@ Page({
         this.setData({
             albumIndex: options.id,
             photosOrigin: app.globalData.allData.albums[options.id].photos
-        });
-        // console.log(filePath);
+        })
     },
 
     // 提交表单
@@ -33,9 +31,12 @@ Page({
         })
 
         // 并发上传图片
-        const uploadTasks = this.data.photosNew.map(item => this.uploadPhoto(item.src))
+        const uploadTasks = this.data.photosNew.map(item => this.uploadPhoto(item.src));
+        console.log("addddddddd");
         Promise.all(uploadTasks).then(result => {
+            console.log("2222222");
             this.addPhotos(result, e.detail.value.desc)
+            console.log("33333");
             wx.hideLoading()
         }).catch(() => {
             wx.hideLoading()
@@ -75,7 +76,7 @@ Page({
         // 在此插入上传图片代码
         // 调用 wx.cloud.uploadFile上传文件
         return wx.cloud.uploadFile({
-            cloudPath: '${Date.now()}-${Math.floor(random(0, 1) * 10000000)}.png',
+            cloudPath: `photo/${Date.now()}-${Math.floor(Math.random(0,1)*1000)}.png`,
             filePath
         })
     },
@@ -103,8 +104,7 @@ Page({
 
     // 添加图片信息到数据库
     addPhotos(photos, comment) {
-        const db = wx.cloud.database()
-        //调用云函数进行校验
+        const db = wx.cloud.database();
         if (comment != "") {
             wx.cloud.callFunction({
                 name: 'textsec',
@@ -117,6 +117,7 @@ Page({
                 },
                 fail(e) {
                     console.log("add.js：cloud", e);
+                    //违规把文字替换为*******
                     comment = '********'
                     wx.hideLoading();
                     wx.showModal({
@@ -128,7 +129,6 @@ Page({
             })
         }
         // 从全局数据中读出用户信息里的照片列表
-
         const oldPhotos = app.globalData.allData.albums[this.data.albumIndex].photos
         const albumPhotos = photos.map(photo => ({
             fileID: photo.fileID,

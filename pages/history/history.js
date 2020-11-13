@@ -78,7 +78,7 @@ Page({
       .then(result => {
         console.log(result);
         let items = result.data.map(item => {
-          item["文章内容"] = item["文章内容"].substring(0, 50) + "...";
+          item["文章内容"] = item["文章内容"].substring(0, 50) + "...";//
           item.image1 = "cloud://zhang-0gv1nrm6234aa24a.7a68-zhang-0gv1nrm6234aa24a-1304009510/hisImgs/" + item["配图"] + ".png";
           return item;
         })
@@ -86,7 +86,7 @@ Page({
         that.setData({
           items: items
         })
-        wx.hideLoading();
+        // wx.hideLoading();
         wx.hideNavigationBarLoading()
       })
   },
@@ -95,7 +95,7 @@ Page({
     var content = e.currentTarget
     console.log(content.offsetTop)
     var a = content.offsetTop
-    var index = Math.round((a) / 432)
+    var index = Math.round((a) / 390)
     console.log(index)
     app.globalData.page2Info = myItem[index]["景点名"]
     app.globalData.area = "chenggong"

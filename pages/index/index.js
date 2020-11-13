@@ -22,16 +22,19 @@ Page({
     })
   },
   toScan: function () {
-    wx.navigateToMiniProgram({
-      appId: 'wxbeb90f1d6c17059b',
-      success(res) {
-        // 打开成功
-        console.info(res);
-      },
-      fail(res) {
-        console.error(res);
-      }
+    wx.navigateTo({
+      url: '../AI_rec/AI_rec',
     })
+    // wx.navigateToMiniProgram({
+    //   appId: 'wxbeb90f1d6c17059b',
+    //   success(res) {
+    //     // 打开成功
+    //     console.info(res);
+    //   },
+    //   fail(res) {
+    //     console.error(res);
+    //   }
+    // })
   },
   toJingdian: function () {
     wx.switchTab({

@@ -15,7 +15,7 @@ Page({
   data: {
     name: null,
     selectShow: false, //控制下拉列表的显示隐藏，false隐藏、true显示
-    selectData: ['河北', '陕西', '山西', '辽宁', '吉林', '黑龙江', '江苏', '浙江', '安徽', '福建', '江西', '山东', '河南', '湖北', '湖南', '广东', '海南', '四川', '贵州', '云南', '甘肃', '青海', "天津"], //下拉列表的数据
+    selectData: ['云南','河北', '陕西', '山西', '辽宁', '吉林', '黑龙江', '江苏', '浙江', '安徽', '福建', '江西', '山东', '河南', '湖北', '湖南', '广东', '海南', '四川', '贵州',  '甘肃', '青海', "天津","重庆"], //下拉列表的数据
     index: 0 //选择的下拉列表下标
 
   },
@@ -109,7 +109,7 @@ Page({
         that.setData({
           items: items
         })
-        wx.hideLoading();
+        // wx.hideLoading();
         wx.hideNavigationBarLoading()
       })
   },
@@ -134,7 +134,7 @@ Page({
         that.setData({
           items: items
         })
-        wx.hideLoading();
+        // wx.hideLoading();
         wx.hideNavigationBarLoading()
       })
   }

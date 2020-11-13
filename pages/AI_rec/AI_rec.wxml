@@ -1,0 +1,12 @@
+<!--pages/page2/page2.wxml-->
+<view class="head">欢迎来到AI识图</view>
+<view class="container">
+  <view>
+    <view class="weui-flex" hidden='{{canvasHidden}}'>
+      <canvas class="canvas" id="imgCanvas" canvas-id="imgCanvas" disable-scroll="true" />
+    </view>
+    <button class="weui-btn" type="primary" bindtap="scanPhoto">
+      <text>AI识物</text>
+    </button>
+  </view>
+</view>

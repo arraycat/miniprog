@@ -34,7 +34,7 @@ Page({
         if (!user.data.length) {
             app.globalData.hasUser = false
 
-            return wx.switchTab({ url: '/pages/user/user' })
+            return wx.navigateTo({ url: '/pages/user/user' })
         }
 
         const userinfo = user.data[0]

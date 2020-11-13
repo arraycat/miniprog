@@ -29,6 +29,6 @@ Page({
             data: { albums: db.command.set(app.globalData.allData.albums) }
         })
 
-        wx.navigateBack({ url: "/pages/page3/page3.wxml" })
+        wx.navigateBack({ url: "/pages/index/index" })
     }
 })

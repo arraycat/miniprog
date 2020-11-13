@@ -16,7 +16,7 @@
     color: #aaa;
 }
 
-.userinfo>button {
+.userinfo > button {
     background-color: #fdc21c;
     border: 0 transparent solid;
     color: #fff;
@@ -25,6 +25,6 @@
     line-height: 32px;
 }
 
-.userinfo>.hint {
+.userinfo > .hint {
     margin-top: 10px;
 }

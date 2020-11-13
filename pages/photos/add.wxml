@@ -1,9 +1,9 @@
-<!-- 对应云相册中添加页面 -->
 <view class="photo-add">
     <form bindsubmit="formSubmit">
         <view class="desc">
             <textarea name="desc" placeholder="填写备注（可以不写）" />
-            </view>
+        </view>
+
         <view class="weui-cells">
             <view class="weui-cell">
                 <view class="weui-cell__bd">

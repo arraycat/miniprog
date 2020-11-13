@@ -48,7 +48,7 @@
   background-color: #efefef;
   font-size: 28px;
   width: 100%;
-  height: 50px;
+  height: 24px;
   border-radius: 14rpx;
   position: relative;
 }
@@ -65,9 +65,9 @@
 }
 
 .select_box .select .select_text {
-  font-size: 25px;
+  font-size: 20px;
   color: #777777;
-  line-height: 40rpx;
+  line-height: 20rpx;
   flex: 1;
 }
 
@@ -106,11 +106,13 @@
 
 .title {
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   color: black;
 }
 
 .content {
+  margin-top: 7px;
+  margin-bottom: 7px;
   margin-left: 20px;
   margin-right: 20px;
   font-size: 17px;

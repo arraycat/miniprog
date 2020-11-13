@@ -9,24 +9,35 @@
 .firstImg {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-  border-radius: 10%;
+  margin-top: 5px;
+  border-radius: 2%;
+  height:90px;
+  width:100px;
 }
 
 .title {
   text-align: center;
-  font-size: 22px;
+  font-size: 15px;
+  font-weight:bold;
+  padding-left: 2px;
 }
 
 .item {
   margin: 10px;
-  border: solid red 2px;
-  border-radius: 10%;
-  box-shadow: salmon 5px 5px 10px;
+  border: solid rgb(0, 0, 0) 1px;
+  border-radius: 3%;
+  box-shadow: rgb(175, 175, 175) 5px 5px 10px;
+  left: 5px;
 }
 
+.binglie{
+  height: 100%;
+  width:100%;
+  display:flex;
+  left:2px;
+}
 .button1 {
-  color: rgb(85, 226, 72);
+  color: rgb(35, 180, 100);
   background-color: rgb(240, 240, 240);
   padding: 0;
   margin: 0;
@@ -42,7 +53,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 15px;
+  padding: 5px 5px;
   box-sizing: border-box;
 }
 

@@ -5,12 +5,14 @@
   display: flex;
   justify-content: center;
   padding: 0;
+
 }
 .firstImg{
   display: flex;
   justify-content: center;
   margin-top: 20px;
   border-radius: 10%;
+  bottom: 18px;
 }
 .title{
   text-align: center;
@@ -18,9 +20,8 @@
 }
 .item{
   margin: 10px;
-  border: solid red 2px;
-  border-radius: 10%;
-  box-shadow: salmon 5px 5px 10px;
+  border: solid black 1px;
+  box-shadow: gray 5px 5px 5px;
 }
 #head{
   text-align: center;
@@ -28,8 +29,12 @@
   font-style: italic;
 }
 .intro{
-  background-color: gray;
+  background-color: white;
   border-radius: 10%;
-  box-shadow: gray 5px 5px 10px ;
   text-indent: 2em;
+}
+#flag{
+  top: 10px;
+  height: 125px;
+  width: 90%;
 }

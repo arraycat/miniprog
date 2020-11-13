@@ -24,10 +24,10 @@
   </view>
   <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
     <view class="cu-item arrow">
-      <view class="content">
-        <text class="cuIcon-favorfill text-grey"></text>
-        <text class="text-grey">收藏</text>
-      </view>
+      <navigator class="content" url="/pages/baokao/baokao" hover-class="none">
+        <text class="cuIcon-info text-grey"></text>
+        <text class="text-grey">我要报考</text>
+      </navigator>
     </view>
     <view class="cu-item arrow">
       <navigator class="content" url="/pages/me/about/about" hover-class="none">
