@@ -19,7 +19,8 @@
     "pages/hisDetail/hisDetail",
     "pages/me/about/about",
     "pages/me/home/home",
-    "pages/baokao/baokao"
+    "pages/baokao/baokao",
+    "pages/weather/weather"
   ],
   "requiredBackgroundModes": [
     "audio",

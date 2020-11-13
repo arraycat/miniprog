@@ -30,13 +30,13 @@
       </view>
     </view>
     <view class="cu-item arrow">
-      <navigator class="content" url="/pages/page5/about/about" hover-class="none">
+      <navigator class="content" url="/pages/me/about/about" hover-class="none">
         <text class="cuIcon-info text-grey"></text>
         <text class="text-grey">关于我们</text>
       </navigator>
     </view>
     <view class="cu-item arrow">
-      <navigator class="content" url="/pages/about/log/log" hover-class="none">
+      <navigator class="content" url="/pages/me/about/log/log" hover-class="none">
         <text class="cuIcon-formfill text-green"></text>
         <text class="text-grey">日志</text>
       </navigator>
