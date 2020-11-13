@@ -21,7 +21,7 @@ video {
   margin-right: 20px;
   font-size: 20px;
   text-indent: 2em;
-  background-image: url("https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/artBac.jpg");
+  background-image: url("https://www.et.ynu.edu.cn/appdd/uploads/20181060074/8/bg.png");
 }
 
 .img {
