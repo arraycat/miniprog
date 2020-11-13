@@ -14,7 +14,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+
     this.setData({
       src: "../../image/flag.png"
     })
@@ -59,7 +59,7 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-    
+
   },
 
   /**
@@ -125,49 +125,49 @@ Page({
         if (res.tapIndex === 0) {
           //获取相册授权
           wx.getSetting({
-            success(res) {
-              if (!res.authSetting['scope.writePhotosAlbum']) {
-                wx.authorize({
-                  scope: 'scope.writePhotosAlbum',
-                  success() {
-                    console.log('授权成功')
-                  }
-                })
+              success(res) {
+                if (!res.authSetting['scope.writePhotosAlbum']) {
+                  wx.authorize({
+                    scope: 'scope.writePhotosAlbum',
+                    success() {
+                      console.log('授权成功')
+                    }
+                  })
+                }
               }
-            }
-          }),
-          wx.saveImageToPhotosAlbum({
-            filePath: imglist,
-            success(res) {
-              wx.showToast({
-                title: '保存成功',
-                icon: 'success',
-                duration: 2000
-              });
-            },
-            fail(res) {
-              wx.showToast({
-                title: '保存失败',
-                icon: 'success',
-                duration: 2000
-              });
-            }
-          });
+            }),
+            wx.saveImageToPhotosAlbum({
+              filePath: imglist,
+              success(res) {
+                wx.showToast({
+                  title: '保存成功',
+                  icon: 'success',
+                  duration: 2000
+                });
+              },
+              fail(res) {
+                wx.showToast({
+                  title: '保存失败',
+                  icon: 'success',
+                  duration: 2000
+                });
+              }
+            });
         };
         //保存到云相册
-        if(res.tapIndex === 1){
+        if (res.tapIndex === 1) {
           var filePath;
-          filePath=imglist;
+          filePath = imglist;
           wx.switchTab({
-            url: '../page4/page4',
+            url: '../cloundAlbum/cloundAlbum',
           })
         };
         //删除临时文件
-        if(res.tapIndex === 2){
-            
+        if (res.tapIndex === 2) {
+
         };
       }
     })
   },
-  
+
 })

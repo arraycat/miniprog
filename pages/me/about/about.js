@@ -5,7 +5,7 @@ Page({
     CustomBar: app.globalData.CustomBar,
     ColorList: app.globalData.ColorList,
   },
-  onLoad: function () { },
+  onLoad: function () {},
   pageBack() {
     wx.navigateBack({
       delta: 1

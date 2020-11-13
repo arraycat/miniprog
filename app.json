@@ -1,24 +1,24 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/page2/page2",
-    "pages/page3/page3",
-    "pages/page4/page4",
-
     "pages/logs/logs",
     "pages/splash/splash",
-    "pages/page22/page22",
+    "pages/jingdian/jingdian",
+    "pages/paizhao/paizhao",
+    "pages/cloundAlbum/cloundAlbum",
+
+    "pages/jingdian_cg/jingdian_cg",
     "pages/detail/detail",
     "pages/recruit/recruit",
-    "pages/col/col",
+    "pages/college/college",
     "pages/album/album",
     "pages/common/common",
     "pages/photos/photos",
     "pages/user/user",
     "pages/history/history",
     "pages/hisDetail/hisDetail",
-    "pages/page5/about/about",
-    "pages/page5/home/home",
+    "pages/me/about/about",
+    "pages/me/home/home",
     "pages/baokao/baokao"
   ],
   "requiredBackgroundModes": [
@@ -43,25 +43,25 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/page2/page2",
+        "pagePath": "pages/jingdian/jingdian",
         "iconPath": "image/景点.png",
         "selectedIconPath": "image/景点被点.png",
         "text": "景点"
       },
       {
-        "pagePath": "pages/page3/page3",
+        "pagePath": "pages/paizhao/paizhao",
         "iconPath": "image/相机.png",
         "selectedIconPath": "image/相机被点.png",
         "text": "拍照"
       },
       {
-        "pagePath": "pages/page4/page4",
+        "pagePath": "pages/cloundAlbum/cloundAlbum",
         "iconPath": "image/图片.png",
         "selectedIconPath": "image/图片被点.png",
         "text": "相册"
       },
       {
-        "pagePath": "pages/page5/home/home",
+        "pagePath": "pages/me/home/home",
         "iconPath": "image/我的.png",
         "selectedIconPath": "image/我的被点.png",
         "text": "我的"

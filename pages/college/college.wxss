@@ -107,17 +107,13 @@
 .title {
   text-align: center;
   font-size: 24px;
-  color: black;
 }
 
 .content {
+  background-image: url("https://www.et.ynu.edu.cn/appdd/uploads/20181060074/8/bg.png");
   margin-left: 20px;
   margin-right: 20px;
-  font-size: 17px;
+  font-size: 20px;
   text-indent: 2em;
   border-radius: 10%;
-}
-
-.schoolName {
-  font-size: 19px;
 }

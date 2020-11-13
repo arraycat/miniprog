@@ -1,3 +1,4 @@
+<!-- //对应首页报考页面 -->
 <view class="title">请输入你的省份</view>
 <view class='page_row' bindtap="suo">
   <view class="search">
@@ -9,13 +10,15 @@
   <view class='sousuo' bindtap="search">搜索</view>
 </view>
 <view class='select_box'>
-    <view class='select' catchtap='selectTap'>
-        <text class='select_text'>{{selectData[index]}}</text>
-        <image class='select_img {{selectShow&&"select_img_rotate"}}' src='../../image/下拉.png'  background-size="contain"></image> 
-    </view>
-    <view class='option_box' style='height:{{selectShow?(selectData.length>5?325:selectData.length*50):0}}rpx;'>
-        <text class='option' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}' catchtap='optionTap'>{{item}}</text>
-    </view>
+  <view class='select' catchtap='selectTap'>
+    <text class='select_text'>{{selectData[index]}}</text>
+    <image class='select_img {{selectShow&&"select_img_rotate"}}' src='../../image/下拉.png' background-size="contain">
+    </image>
+  </view>
+  <view class='option_box' style='height:{{selectShow?(selectData.length>5?325:selectData.length*50):0}}rpx;'>
+    <text class='option' wx:for='{{selectData}}' wx:key='this' data-index='{{index}}'
+      catchtap='optionTap'>{{item}}</text>
+  </view>
 </view>
 <view class="item" wx:for="{{items}}" bindtap="onClick" wx:key="index">
   <view>

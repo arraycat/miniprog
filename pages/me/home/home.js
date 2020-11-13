@@ -3,9 +3,9 @@ Component({
     addGlobalClass: true,
   },
   data: {
-    starCount: 0,
-    forksCount: 0,
-    visitTotal: 0,
+    starCount: 50,
+    forksCount: 25,
+    visitTotal: 100,
   },
   attached() {
     console.log("success")
@@ -16,6 +16,7 @@ Component({
     })
     let i = 0;
     numDH();
+
     function numDH() {
       if (i < 20) {
         setTimeout(function () {
@@ -29,9 +30,9 @@ Component({
         }, 20)
       } else {
         that.setData({
-          starCount: that.coutNum(3000),
-          forksCount: that.coutNum(484),
-          visitTotal: that.coutNum(24000)
+          starCount: that.coutNum(300),
+          forksCount: that.coutNum(200),
+          visitTotal: that.coutNum(500)
         })
       }
     }
@@ -66,14 +67,6 @@ Component({
     hideModal(e) {
       this.setData({
         modalName: null
-      })
-    },
-    showQrcode() {
-      var randNum = Math.floor(Math.random()*3);
-      var arr = ["https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/zhumingyu.jpg","https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/liuwenjing.png","https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/zhangguanping.jpg"]
-      wx.previewImage({
-        urls: [arr[randNum]],
-        current: arr[randNum] // 当前显示图片的http链接      
       })
     },
   }

@@ -1,14 +1,14 @@
 @import "../common/weui.wxss";
 
-.page-section{
+.page-section {
     margin-bottom: 20rpx;
 }
 
-page{
+page {
     background: #f2f2f2;
 }
 
-.album-add{
+.album-add {
     padding: 24rpx;
 }
 
@@ -23,7 +23,7 @@ page{
     font-size: 32rpx;
 }
 
-.album-add .btn-box{
+.album-add .btn-box {
     margin-top: 16rpx;
     padding: 24rpx 0;
 }

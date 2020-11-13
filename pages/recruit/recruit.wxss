@@ -1,31 +1,36 @@
 /* pages/recruit/recruit.wxss */
-video{
+video {
   border: solid lightpink 1px;
   width: 85%;
   height: 160px;
   border-radius: 10%;
 }
-#videoBox{
+
+#videoBox {
   text-align: center;
 }
-.title{
+
+.title {
   font-size: 25px;
   font-style: italic;
   font-weight: bold;
 }
-.artical{
+
+.artical {
   margin-left: 20px;
   margin-right: 20px;
   font-size: 20px;
   text-indent: 2em;
   background-image: url("https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/artBac.jpg");
 }
-.img{
+
+.img {
   float: left;
   width: 25%;
   height: 75px;
   border-radius: 10%;
 }
-.selected{
+
+.selected {
   border-bottom: solid lightblue;
 }

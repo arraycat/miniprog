@@ -1,3 +1,4 @@
+<!-- 对应学院页面 -->
 <view class="title">请输入你心仪的学院吧！</view>
 <view class='page_row' bindtap="suo">
   <view class="search">

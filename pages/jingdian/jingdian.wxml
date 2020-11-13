@@ -1,4 +1,5 @@
 <!--pages/page2/page2.wxml-->
+<!-- 对应景点-东陆 -->
 <view class="container" bindtap="toWeather">
   <view class="weather yesterday">
     <!-- 此处使用tomorrow样式 -->

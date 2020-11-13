@@ -63,12 +63,12 @@ Page({
   onShareAppMessage: function () {
 
   },
-  toCol:function(){
+  toCol: function () {
     wx.navigateTo({
-    url: '../col/col'
-  })
+      url: '../college/college'
+    })
   },
-  toBaokao:function(){
+  toBaokao: function () {
     wx.navigateTo({
       url: '../baokao/baokao',
     })

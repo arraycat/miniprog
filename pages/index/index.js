@@ -2,17 +2,10 @@
 
 Page({
   data: {
-    update: '',
-    basic:{},
-    today:{},
-    tomorrow:{},
-    afterTomor:{},
-    todyIcon:'../../image/weather/999.png',
-    tomorrowIcon:'../../image/weather/999.png',
-    afterTomorIcon:'../../image/weather/999.png'
+    
   },
   //事件处理函数
-  bindViewTap: function() {
+  bindViewTap: function () {
     wx.navigateTo({
       url: '../logs/logs'
     })
@@ -21,14 +14,14 @@ Page({
 
   },
   onShow: function () {
-    
+
   },
-  myClick:function(){
+  myClick: function () {
     wx.switchTab({
-      url: '../page2/page2',
+      url: '../jingdian/jingdian'
     })
   },
-  to2:function(){
+  toScan: function () {
     wx.navigateToMiniProgram({
       appId: 'wxbeb90f1d6c17059b',
       success(res) {
@@ -40,27 +33,27 @@ Page({
       }
     })
   },
-  toPage2:function(){
+  toJingdian: function () {
     wx.switchTab({
-      url: '../page2/page2',
+      url: '../jingdian/jingdian',
     })
   },
-  toPage4:function(){
+  toCloudAlbum: function () {
     wx.switchTab({
-      url: '../page4/page4',
+      url: '../cloundAlbum/cloundAlbum',
     })
   },
-  to4:function(){
+  toRecruit: function () {
     wx.navigateTo({
       url: '../recruit/recruit',
     })
   },
-  to5:function(){
+  toHistory: function () {
     wx.navigateTo({
       url: '../history/history',
     })
   },
-  toWeather:function(){
+  toWeather: function () {
     wx.navigateTo({
       url: '../weather/weather',
     })

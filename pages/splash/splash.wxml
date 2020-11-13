@@ -1,4 +1,5 @@
 <!--pages/splash/splash.wxml-->
+<!-- 对应splash -->
 <swiper indicator-dots="true">
   <block wx:for="{{imgs}}" wx:for-index="index"  wx:key="*this">
     <swiper-item class="swiper-items">

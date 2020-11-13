@@ -1,6 +1,8 @@
 <!--miniprogram/pages/weather/weather.wxml-->
 <!-- 和风天气API -->
-<text><center>天气预报</center></text>
+<text>
+  <center>天气预报</center>
+</text>
 <!--index.wxml-->
 <view class="container">
   <view class="weather yesterday">
@@ -20,7 +22,7 @@
   <view class="weather today">
     <view>
       <text>明天</text>
-       <view class='location'>{{basic.location}}/{{basic.parent_city}}</view>
+      <view class='location'>{{basic.location}}/{{basic.parent_city}}</view>
       <view class='tmp'>{{tomorrow.tmp_min}}℃~{{tomorrow.tmp_max}}℃</view>
       <view class='cond_txt'>{{tomorrow.cond_txt_d}}</view>
     </view>
@@ -29,17 +31,17 @@
         <image src='{{tomorrowIcon}}'></image>
       </view>
       <view class='lastUpdateDate'>最后更新：{{update}}</view>
-      </view>
+    </view>
   </view>
   <view class="weather tomorrow">
     <view>
       <text>后天</text>
-       <view class='location'>{{basic.location}}/{{basic.parent_city}}</view>
+      <view class='location'>{{basic.location}}/{{basic.parent_city}}</view>
       <view class='tmp'>{{afterTomor.tmp_min}}℃~{{afterTomor.tmp_max}}℃</view>
       <view class='cond_txt'>{{afterTomor.cond_txt_d}}</view>
     </view>
     <view>
-    <view class='weather_icon'>
+      <view class='weather_icon'>
         <image src='{{afterTomorIcon}}'></image>
       </view>
       <view class='lastUpdateDate'>最后更新：{{update}}</view>

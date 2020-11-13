@@ -1,32 +1,37 @@
 /* pages/page2/page2.wxss */
-.imgBox{
+.imgBox {
   text-align: center;
   display: flex;
   justify-content: center;
   padding: 0;
 }
-.firstImg{
+
+.firstImg {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   border-radius: 10%;
 }
-.title{
+
+.title {
   text-align: center;
   font-size: 22px;
 }
-.item{
+
+.item {
   margin: 10px;
   border: solid red 2px;
   border-radius: 10%;
   box-shadow: salmon 5px 5px 10px;
 }
-.button1{
+
+.button1 {
   color: rgb(85, 226, 72);
   background-color: rgb(240, 240, 240);
   padding: 0;
   margin: 0;
 }
+
 /* 天气 */
 /* miniprogram/pages/weather/weather.wxss */
 /**index.wxss**/
@@ -39,8 +44,9 @@
   justify-content: space-between;
   padding: 10px 15px;
   box-sizing: border-box;
-} 
-.weather{
+}
+
+.weather {
   height: 110px;
   width: 100%;
   margin-bottom: 10px;
@@ -51,36 +57,48 @@
   font-size: 14px;
   box-sizing: border-box;
 }
-.weather>view{
+
+.weather>view {
   flex: 1;
 }
-.weather>view>view{
+
+.weather>view>view {
   margin: 5px 0;
 }
-.yesterday{
+
+.yesterday {
   background-color: #30BCAF;
 }
-.today{
+
+.today {
   background-color: #78A4be;
 }
-.tomorrow{
+
+.tomorrow {
   background-color: #FCB654;
 }
-.location,.cond_txt{
+
+.location,
+.cond_txt {
   font-size: 14px;
 }
-.date,.tmp{
+
+.date,
+.tmp {
   font-weight: bold;
 }
-.weather_icon{
+
+.weather_icon {
   text-align: center;
   height: 65px;
 }
-.weather_icon image{
+
+.weather_icon image {
   width: 75px;
   height: 100%;
 }
-.lastUpdateDate{
+
+.lastUpdateDate {
   font-size: 10px;
   text-align: center;
 }

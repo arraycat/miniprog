@@ -1,8 +1,10 @@
+<!-- 对应拍照页面 -->
 <view class="container">
   <view class='img_body'>
     <view class='img_list'>
       <view class='img_li' wx:for="{{imglist}}" wx:key="index">
-        <image mode='widthFix' src="{{item}}" data-list="{{item}}" data-src="{{item}}" bindtap="previewImage" bindlongpress="imgOption"></image>
+        <image mode='widthFix' src="{{item}}" data-list="{{item}}" data-src="{{item}}" bindtap="previewImage"
+          bindlongpress="imgOption"></image>
       </view>
       <view class='addimg' bindtap='myChooseImage'>
         <image src='../../image/add.png'></image>

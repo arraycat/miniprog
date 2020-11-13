@@ -1,3 +1,4 @@
+<!-- 对应我的页面中的主要部分 -->
 <scroll-view scroll-y class="scrollPage">
   <view class="UCenter-bg">
     <view class="text-center">
@@ -41,7 +42,7 @@
       </navigator>
     </view>
     <view class="cu-item arrow">
-      <view class="content" bindtap="showQrcode">
+      <view class="content">
         <text class="cuIcon-appreciatefill text-red"></text>
         <text class="text-grey">赞赏支持</text>
       </view>

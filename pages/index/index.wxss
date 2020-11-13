@@ -1,44 +1,48 @@
-
-.flags{
+.flags {
   height: 200px;
   width: 100%;
   margin-bottom: 1%;
 }
-#celebrity{
+
+#celebrity {
   float: left;
   position: relative;
   left: 15px;
   width: 60%;
   height: 170px;
 }
-#plant{
+
+#plant {
   float: right;
   width: 30%;
-  height:90px;
+  height: 90px;
   left: -15px;
 }
-#img{
+
+#img {
   float: right;
   width: 30%;
-  height:175px;
-  bottom:-5px;
+  height: 175px;
+  bottom: -5px;
   left: -15px;
 }
-#exam{
+
+#exam {
   float: left;
   margin-left: 15px;
   width: 30%;
-  height:95px;
-  bottom:-5px;
-}
-#history{
-  float: left;
-  width: 30%;
-  height:95px;
-  bottom:-5px;
+  height: 95px;
+  bottom: -5px;
 }
 
-.siper_item{
+#history {
+  float: left;
+  width: 30%;
+  height: 95px;
+  bottom: -5px;
+}
+
+.siper_item {
   height: 80%;
   margin-bottom: 0px;
   padding: 0px;
@@ -46,11 +50,12 @@
   bottom: -25px;
   left: 18px;
 }
-.flag2{
+
+.flag2 {
   position: absolute;
   left: -100px;
   width: 20%;
   height: 30px;
-  font-size:0px;
+  font-size: 0px;
 
 }
