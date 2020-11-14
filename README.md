@@ -25,3 +25,27 @@
 ![image](https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/ph5.jpg)  
 ![image](https://www.et.ynu.edu.cn/appdd/uploads/20181020105/8/ph6.jpg)  
 
+小程序体验二维码：
+![image](https://www.et.ynu.edu.cn/appdd/uploads/20181060009/8/%E4%BA%91%E6%B8%B8%E6%A0%A1%E5%9B%AD-%E4%BD%93%E9%AA%8C%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)  
+
+部署教程：
+1.将项目下载到计算机；
+2.在app.js中更改环境ID为自己的环境ID。
+3.云函数在app.json中配置云函数根目录，并上传部署云函数。
+4.向云数据库中，添加以下集合：
+（1）donglu  存放东陆校区景点介绍与美图数据
+（2）chenggong  存放呈贡校区景点介绍与美图数据
+（3）history  存放云南大学历史介绍文章与图片
+（4）user  存放相册所需数据
+（5）gaokao2019  存放查询高考相关分数数据
+（6）college  存放学院介绍数据
+然后修改各个集合权限为最高权限（第一个选项）
+5.向云存储中添加文件夹images，文件夹中存放东陆与呈贡校区美图，命名与数据集合中相同。
+  向云存储中添加文件夹hisImgs，文件夹中存放历史图片，命名与history数据集合一致。
+  并且修改云存储权限为最高权限。
+6.修改jingdian.js，jingdian_cg.js，detail.js，hisDetail.js从云数据库中获取图片数据的前缀为自己云存储的相关路径。
+  可使用，可以使用CTRL+F搜索关键词：item.img1进行查询，然后修改。
+7.进行测试。
+
+开源许可证标注：
+许可证是GPL V3
