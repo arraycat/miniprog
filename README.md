@@ -19,7 +19,7 @@
 相册板块（photos）：用户可以自己创建自定义名称的相册，将自己的图片的上传到云端，并且可以查看自己收藏的美图。  
 我的（me）：用户在这个界面可以进行问题的反馈，对开发者进行赞赏，以及查看开发者项目的相关信息以及更新日志，以及跳转到报考界面并且可以进行分享。  
   
-演示视频网址：[Demo_Video](https://www.et.ynu.edu.cn/appdd/uploads/20181060009/8/Demo_Video.mp4
+演示视频网址：[Demo_Video](https://www.et.ynu.edu.cn/appdd/uploads/20181060009/8/video.mp4
 )（！由于不是首次进入小程序，演示视频中未展示splash。）
 
 
